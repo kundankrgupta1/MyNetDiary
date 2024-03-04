@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'Rubik Light';
+	src: url('../../Fonts/Rubik-Light-Medium.ttf');
+	font-family: 'Cabin Regular';
+	src: url('../../Fonts/Cabin-Regular.ttf');
+}
+
+.SectionBlog {
+	width: 1440px;
+	margin: auto;
+	border-bottom: 0.01rem dashed #e1cdbe;
+	padding-bottom: 4rem;
+}
+
+.SectionBlog > h1 {
+	font-size: 3rem;
+	margin-bottom: 3rem;
+	font-family: 'Rubik Light';
+	color: #268fd0;
+	text-align: center;
+}
+
+.grids {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5rem;
+}
+
+.grids > .gridItem {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 15px;
+}
+
+.grids > .gridItem > img {
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.grids > .gridItem > h3 {
+	font-family: 'Rubik Light', sans-serif;
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1rem;
+	color: #3d567c;
+	margin-left: 1rem;
+}
+
+.grids > .gridItem > h3:hover {
+	text-decoration: underline;
+}
+
+.gridItem > .hrTag {
+	margin-left: 2rem;
+	border-top: 0.1rem solid #c5c7c9;
+	width: 15%;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.grids > .gridItem > p {
+	margin-left: 1rem;
+	font-family: 'Cabin Regular', sans-serif;
+	font-size: 1.1rem;
+	padding: 1rem;
+	text-decoration: none;
+}

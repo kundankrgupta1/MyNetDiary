@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../../Fonts/Rubik-Light-Medium.ttf");
+  font-family: "Cabin Regular";
+  src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+.signup {
+  background-color: #09a145;
+  background-image: url("../assets/texture_noise.png");
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  height: 800px;
+  padding-top: 1rem;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo > img {
+	height: 60px;
+}
+
+.Signupform {
+	width: 1150px;
+	height: 500px;
+	margin: auto;
+	background-color: #fff;
+	padding: 2rem;
+	margin-top: 1rem;
+	border-radius: 2rem;
+	text-align: center;
+	/* box-shadow: rgba(136, 130, 128, .5) 0 47px 66px -47px; */
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Signupform > h1 {
+	font-family: 'Rubik Light', sans-serif;
+	font-size: 3rem;
+	color: #268FD0;
+	margin-bottom: 2rem;
+	font-weight: 500;
+}
+
+.signupFooter {
+	padding: 2rem;
+	font-family: 'Robot', sans-serif;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.signupFooter > p > a {
+	color: #4DB867;
+	text-decoration: underline;
+}
+
+form {
+	width: 35%;
+	margin: auto;
+	font-family: 'Robot', sans-serif;
+}
+
+form > .input > input[type=text] {
+	margin-bottom: 3rem;
+	width: 400px;
+	padding-bottom: 5px;
+	font-size: 1rem;
+	border: none;
+	border-bottom: 1px solid grey;
+	outline: none;
+}
+
+form > p {
+	color: #268FD0;
+	font-weight: 600;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+form > label {
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+	float: left;
+}
+.radio {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.radio > div {
+	margin: 10px;
+	display: flex;
+	gap: 1rem
+}
+
+form > input[type=button] {
+	background-color: #268FD0;
+	border: none;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	color: #fff;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}

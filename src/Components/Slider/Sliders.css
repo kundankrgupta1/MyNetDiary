@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../../Fonts/Rubik-Light-Medium.ttf");
+  font-family: "Cabin Regular";
+  src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+.slider-container {
+	background-color: #09a145;
+  background-image: url("../../assets/texture_noise.png");
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  overflow: hidden;
+  margin-bottom: 6rem;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sliderSpace {
+	border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  background-color: #fff;
+  height: 5%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.slider {
+	margin-top: 4rem;
+}
+
+
+
+.slick-prev:before {
+	font-size: 120px;
+}
+
+.slider_data {
+	display: flex;
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+
+.sliderText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.sliderText > h1 {
+	font-family: "Rubik Light", sans-serif;
+	color: #fff;
+	font-size: 4rem;
+}
+
+.sliderText > h3 {
+	font-family: "Cabin Regular", sans-serif;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.sliderText > p {
+	font-family: "Cabin Regular", sans-serif;
+	color: #FCF8B3;
+	font-size: 1.8rem;
+}
+.link {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-family: "Cabin Regular", sans-serif;
+	color: #fff;
+	padding: 1.5rem 3rem;
+	border: 2px solid #37791f;
+	max-width: fit-content;
+	border-radius: 50px;
+}
+
+.link:hover {
+	border: 2px solid #fc8a38;
+}
+
+/*
+.Slider {
+  background-color: #09a145;
+  background-image: url("../../assets/texture_noise.png");
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  padding: 4rem;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.Slider > .bottomRadiusSlider {
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  background-color: #fff;
+  height: 3%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.Slider_data {
+	display: flex;
+}
+
+.Slider_data > .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SliderText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	gap: 3rem;
+	padding: 2rem;
+}
+
+.SliderText > h1 {
+	font-family: "Rubik Light", sans-serif;
+	color: #fff;
+	font-size: 4rem;
+	
+}
+
+.SliderText > h3 {
+	font-family: "Cabin Regular", sans-serif;
+	color: #fff;
+	font-size: 2rem;
+}
+
+.SliderText > p {
+	font-family: "Cabin Regular", sans-serif;
+	color: #FCF8B3;
+	font-size: 1.8rem;
+}
+*/
+
+/*
+.SliderButton {
+	max-width: fit-content;
+	font-family: "Cabin Regular", sans-serif;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+	padding: 1.5rem 2.5rem;
+	font-size: 1.5rem;
+	border-radius: 50px;
+	border: 2px solid #37791f;
+	color: #fff;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 4rem;
+}
+
+.SliderButton:hover {
+	border: 2px solid #fc8a38;
+}
+
+.SliderButton > img {
+	height: 20px;
+}
+*/

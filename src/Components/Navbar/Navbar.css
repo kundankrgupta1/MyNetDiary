@@ -1,0 +1,125 @@
+@font-face {
+	font-family: 'Cabin Regular';
+	src: url('../../Fonts/Cabin-Regular.ttf');
+}
+
+.navbar {
+	padding: 20px;
+	background-color: #09A145;
+	background-image: url('../../assets/texture_noise.png');
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logoSections {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logoSections > a > img {
+	height: 60px;
+}
+
+.signupSignin {
+	display: flex;
+	gap: 30px;
+}
+
+.signupSignin > a > button {
+	padding: 10px 30px;
+	font-family: 'Cabin Regular', sans-serif;
+	text-transform: uppercase;
+	border-radius: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #fff;
+	cursor: pointer;
+}
+
+.signupSignin > a:nth-child(1) > button {
+	background: linear-gradient(to bottom, #ffb845 0, #ff9945 100%);
+	border: 2px solid green;
+}
+
+.signupSignin > a:nth-child(2) > button {
+	border: 2px solid rgb(11, 180, 11);
+	background-color: transparent;
+}
+
+
+.navItems {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navItems > ul {
+	display: flex;
+	justify-content: center;
+}
+
+li {
+	font-family: 'Cabin Regular', sans-serif;
+	list-style: none;
+	text-transform: capitalize;
+	font-size: 22px;
+}
+
+.navItems > ul > li > .anchorTag {
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.navItems > ul > li > .anchorTag:hover {
+	color: #ff9945;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.items {
+	position: relative;
+}
+
+.dietsItems {
+	width: 300px;
+	background-color: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 120%;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.items:hover .dietsItems {
+	opacity: 1;
+	visibility: inherit;
+}
+
+.dietsItems > ul > li {
+	padding: 10px 15px;
+	color: #46618a;
+	text-transform: none;
+}
+
+.dietsItems > ul > li:hover {
+	background-color: #ff9945;
+	border-radius: 5px;
+}
+
+
+.dietsItems > ul > li > a:hover {
+	color: #fff;
+}
+
+.flex {
+	display: flex;
+	gap: 10px;
+	justify-content: flex-start;
+	align-items: center;
+}

@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Rubik Light';
+	src: url('../../Fonts/Rubik-Light-Medium.ttf');
+	font-family: 'Cabin Regular';
+	src: url('../../Fonts/Cabin-Regular.ttf');
+}
+
+.Cta {
+	background: url(https://assets.mynetdiary.com/images/texture-noise@1x.png), radial-gradient(ellipse at top, #fdb941 0, #fc8a38 100%);
+    overflow: hidden;
+    border-bottom-right-radius: 100rem 5rem;
+    border-bottom-left-radius: 100rem 5rem;
+	position: relative;
+}
+
+.Cta .bottomRadius2 {
+	border-bottom-right-radius: 100rem 5rem;
+	border-bottom-left-radius: 100rem 5rem;
+	background-color: #fff;
+	height: 3%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.CtaContent {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 4rem;
+	/* margin-bottom: 1rem; */
+	gap: 2rem;
+	align-items: center;
+}
+
+.CtaContent > img {
+	width: 50rem;
+}
+
+.CtaText {
+	font-family: 'Rubik Light', sans-serif;
+	color: #fff;
+	margin-right: -5rem;
+}
+
+.CtaText > h1 {
+	font-size: 5rem;
+	font-weight: 500;
+	margin-bottom: 4rem;
+}
+
+.CtaText > button {
+	padding: 1rem 3rem;
+	font-family: 'Cabin Regular', sans-serif;
+	text-transform: uppercase;
+	border-radius: 50px;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #fff;
+	cursor: pointer;	
+	background: linear-gradient(to bottom, #0DC556 0, #0CB04D 100%);
+	border: 4px solid #DD7325;
+}
+
+.CtaText > button:hover {
+	background: linear-gradient(to bottom, #0CB04D 0, #0DC556 100%);
+}
+
+.CtaText > button > a {
+	color: #fff;
+}
+

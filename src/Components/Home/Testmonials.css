@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "Rubik Light";
+	src: url("../../Fonts/Rubik-Light-Medium.ttf");
+	font-family: "Cabin Regular";
+	src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+
+.testmonials {
+	padding: 4rem;
+	text-align: center;
+}
+
+.testmonials > h1 {
+	font-family: "Rubik Light", sans-serif;
+	font-size: 3.5rem;
+	font-weight: 500;
+	color: #268FD0;
+	margin-bottom: 2rem;
+
+}
+
+.testmonials > p {
+	font-family: "Cabin Regular", sans-serif;
+	font-size: 2rem;
+	margin: 2rem;
+	color: #46618A;
+}
+
+.testimonialsButtons {
+	max-width: fit-content;
+	font-family: "Cabin Regular", sans-serif;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+	padding: 1.5rem 2.5rem;
+	font-size: 1.5rem;
+	border-radius: 50px;
+	border: 2px solid #268fd0;
+	color: #09A145;
+	cursor: pointer;
+	margin: auto;
+	margin-top: 4rem;
+}
+
+.testimonialsButtons:hover {
+	border: 2px solid #09A145;
+}
+
+.testimonialsButtons > img {
+	height: 20px;
+}
+

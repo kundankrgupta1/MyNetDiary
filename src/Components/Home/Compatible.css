@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Rubik Light';
+	src: url('../../Fonts/Rubik-Light-Medium.ttf');
+	font-family: 'Cabin Regular';
+	src: url('../../Fonts/Cabin-Regular.ttf');
+}
+
+.Compatible {
+	margin-top: 4rem;
+}
+
+.Compatible > h1 {
+	font-family: "Rubik Light", sans-serif;
+	font-size: 3rem;
+	color: #46618a;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.CompatibleLogo {
+	display: flex;
+	gap: 4rem;
+	justify-content: center;
+	margin-bottom: 4rem;
+	align-items: center;
+}

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../../Fonts/Rubik-Light-Medium.ttf");
+  font-family: "Cabin Regular";
+  src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+.Footer {
+  margin-top: -2rem;
+  display: flex;
+  gap: 3rem;
+  background: url(https://assets.mynetdiary.com/images/texture-noise@1x.png),
+    radial-gradient(ellipse at top, #fff 0, #fff 100%);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.Footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.Footer1 > a > img {
+  height: 70px;
+  margin-bottom: 1.5rem;
+}
+
+.Footer1 > .downloads {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: -1rem;
+}
+
+.downloads > a > img {
+  height: 45px;
+}
+
+.Footer1 > .star {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Cabin Regular", sans-serif;
+  font-size: 1.3rem;
+  color: #6d6c6b;
+}
+
+.Footer1 > ul {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Footer1 > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid rgb(194, 188, 188);
+}
+
+ul > li > a > img {
+  height: 25px;
+}
+
+.FooterLinks {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  font-family: "Cabin Regular", sans-serif;
+  font-size: 1.3rem;
+  color: #6d6c6b;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.FooterLinks > p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.FooterLinks > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.FooterLinks > ul > li {
+  list-style: disc;
+  margin: 0.4rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+
+.FooterLinks > ul > li > a {
+  color: #46618a;
+}
+
+.FooterLinks > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.subFooter {
+  padding: 3rem;
+  border-top: 1px solid rgba(143, 112, 102, 0.08);
+  background: url(https://assets.mynetdiary.com/images/texture-noise@1x.png);
+  background-color: rgba(143, 112, 102, 0.05);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cabin Regular", sans-serif;
+  color: #46618a;
+  
+}
+
+.subFooter > ul {
+	display: flex;
+	gap: 2rem;
+}
+
+.subFooter > ul > li > a {
+	font-size: 1.2rem;
+	color: #46618a;
+}
+.subFooter > ul > li > a:hover {
+	text-decoration: underline;
+}

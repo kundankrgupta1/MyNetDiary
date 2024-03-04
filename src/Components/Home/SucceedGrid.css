@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../../Fonts/Rubik-Light-Medium.ttf");
+  font-family: "Cabin Regular";
+  src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+.succeedGrid {
+  background-color: #f5f2ef;
+  background-image: url("../../assets/texture_noise.png");
+  padding: 4rem;
+  text-align: center;
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+.succeedGrid > .bottomRadius {
+  border-bottom-right-radius: 100rem 5rem;
+  border-bottom-left-radius: 100rem 5rem;
+  background-color: #fff;
+  height: 3%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.succeedGrid > p {
+  color: #268fd0;
+  font-family: "Rubik Light", sans-serif;
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10rem;
+  row-gap: 5rem;
+  margin-top: 6rem;
+}
+
+.gridItem > h1 {
+  font-family: "Rubik Light", sans-serif;
+  font-size: 2.5rem;
+  color: #268fd0;
+  margin: 1rem;
+}
+
+.gridItem > p {
+  font-family: "Cabin Regular", sans-serif;
+  color: #46618a;
+  font-size: 1.5rem;
+}
+
+.gridItem > img {
+  height: 16rem;
+}

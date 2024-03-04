@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Rubik Light";
+  src: url("../../Fonts/Rubik-Light-Medium.ttf");
+  font-family: "Cabin Regular";
+  src: url("../../Fonts/Cabin-Regular.ttf");
+}
+
+.SectionWit_main {
+  width: 1440px;
+  margin: auto;
+  margin-top: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-top: 0.01rem dashed #e1cdbe;
+}
+
+.SectionWit {
+  display: flex;
+  gap: 2rem;
+}
+
+.SectionWit__content {
+  width: 33%;
+}
+
+.SectionWit__content > img {
+  border-radius: 1.8rem;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 6px 13px 0 rgba(13, 9, 5, 0.2);
+  max-width: 100%;
+}
+
+.SectionWit__content > h1 {
+  margin: 4rem 0 2.5rem !important;
+  font-family: "Rubik Light", sans-serif;
+  color: #268fd0;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.SectionWit__content > p {
+  margin: 0 0 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: "Cabin Regular", sans-serif;
+  font-weight: 500;
+  color: #46618a;
+}

@@ -1,0 +1,2 @@
+# MyNetDiary
+Clone of MyNetDiary

@@ -5,7 +5,8 @@
 
 .navbar {
 	padding: 20px;
-	background-color: #09A145;
+/* 	background-color: #09A145; */
+	background-color: red;
 	background-image: url('../../assets/texture_noise.png');
 	display: flex;
 	justify-content: space-between;
